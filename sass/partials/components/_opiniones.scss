@@ -1,0 +1,29 @@
+.container-opinion {
+    @include flex(row, center, center);
+    @include sizes(70%, 30%);
+    @include borders(10px, 0);
+    background-color: map-get($colors, white-egg);
+    border-radius: 10px;
+
+    img {
+        @include sizes(40%, 80%);
+        object-fit: contain;
+    }
+}
+
+.container-info-opinion {
+    @include flex(column, center, flex-start);
+    @include sizes(60%, 100%);
+
+    p {
+        text-align: left;
+        @include borders(10px, 10px);
+        font-size: map-get($fontSizes, autoTitle);
+    }
+
+    h2 {
+        text-align: left;
+        @include borders(10px, 10px);
+        font-size: map-get($fontSizes, mainTitle);
+    }
+}

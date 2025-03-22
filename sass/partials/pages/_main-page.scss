@@ -1,0 +1,82 @@
+// 1ra pagina
+// Body 1ra pagina
+body {
+    height: auto;
+}
+
+// Main 1ra pagina
+main {
+    @include sizes(100%, auto);
+    @include flex(column, center, center);
+    background-color: map-get($colors, wine-red);
+}
+
+.section-contenedor-imagenes {
+    @include sizes(100%, 50vh);
+    @include flex(row, center, center);
+}
+
+section {
+    @include flex(column, center, center);
+
+    h1 {
+        @include borders(10px, 10px);
+        @include marginsTopBottom(150px, 150px);
+        text-align: center;
+        color: map-get($colors, white-egg);
+    }
+}
+
+.img-imagen-pizza {
+    @include sizes(27%, 90%);
+    object-fit: cover;
+    margin: 7px;
+    border-radius: 10px;
+    border: 6px solid map-get($colors, white-egg);
+}
+
+.img-imagen-media {
+    margin-top: 10vh;
+}
+
+.section-contenedor-ofrecemos {
+    @include flex(row, center, center);
+    @include sizes(100%, 25vh);
+}
+
+
+.section-somos-unicos {
+    @include sizes(100%, 100vh);
+    @include flex(row, center, center);
+    @include marginsTopBottom(150px, 150px);
+}
+
+.division-info-somos-unicos {
+    @include flex(column, center, flex-start);
+    @include sizes(60%, 100%);
+
+    h3 {
+        color: map-get($colors, white-egg);
+        text-align: center;
+        @include borders(10px, 10px);
+        font-size: map-get($fontSizes, mainTitle);
+    }
+
+    p {
+        color: map-get($colors, white-egg);
+        text-align: left;
+        @include borders(10px, 10px);
+        font-size: map-get($fontSizes, autoTitle);
+    }
+}
+
+.division-imagen-somos-unicos {
+    @include flex(column, center, center);
+    @include sizes(40%, 100%);
+
+    img {
+        @include sizes(80%, 100%);
+        object-fit: cover;
+    }
+}
+

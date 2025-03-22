@@ -1,0 +1,33 @@
+// Media Query para pantallas medianas (tablets)
+@media (max-width: 1024px) {
+    .section-contacto {
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    .container-divisor-texto {
+        width: 90%;
+    }
+
+    .container-divisor-formulario {
+        width: 90%;
+    }
+}
+
+// Media Query para pantallas pequeñas (móviles)
+@media (max-width: 768px) {
+    .section-contacto {
+        flex-direction: column;
+        height: 200vh;
+    }
+
+    .container-divisor-texto {
+        width: 90%;
+    }
+
+    .container-divisor-formulario {
+        width: 90%;
+    }
+}
+
+

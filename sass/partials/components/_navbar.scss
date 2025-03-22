@@ -1,0 +1,14 @@
+header a img {
+    @include sizes(100px, 100px);
+    object-fit: contain;
+}
+
+nav {
+    background-color: map-get($colors, white-egg);
+    height: 100%;
+}
+
+.container-fluid {
+    background-color: map-get($colors, white-egg);
+    @include borders(0, 0);
+}

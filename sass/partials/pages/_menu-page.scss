@@ -1,0 +1,19 @@
+// 2da pagina
+
+// PAGINA MENU.HTML
+.section-platos-principales {
+    @include flex(column, center, center);
+    @include sizes(70%, 130vh);
+    margin-top: 100px;
+    gap: 25px;
+
+    h1 {
+        margin: 50px;
+        padding: 0;
+    }
+}
+
+.container-productos {
+    @include flex(row, center, center);
+    @include sizes(100%, 50%);
+}

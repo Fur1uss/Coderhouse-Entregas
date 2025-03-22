@@ -1,0 +1,16 @@
+//maps
+$colors: (
+    white-egg: #e4d9c0,
+    wine-red : #a3283a,
+    pastel-purple: #6c5ce7,
+    pastel-purple-hover: #574bdb,
+    white: white,
+    black: black
+);
+
+$fontSizes: (
+    mainTitle: 2em,
+    subTitle: 1.2rem,
+    autoTitle: calc(.8rem + .5vw) 
+);
+//Esto se utiliza con el comando map-get($colors, white-egg) o map-get($fontSizes, mainTitle)

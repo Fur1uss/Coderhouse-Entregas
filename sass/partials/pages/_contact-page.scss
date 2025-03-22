@@ -1,0 +1,64 @@
+// PAGINA CONTACTO.HTML
+.section-contacto {
+    @include flex(row, center, center);
+    @include sizes(100%, 80vh);
+    @include marginsTopBottom(100px, 25px);
+}
+
+.container-divisor-texto {
+    @include flex(column, center, flex-start);
+    @include sizes(50%, 70%);
+
+    h1 {
+        color: map-get($colors, white-egg);
+        text-align: center;
+        @include borders(10px, 10px);
+        font-size: map-get($fontSizes, mainTitle);
+    }
+
+    p {
+        color: map-get($colors, white-egg);
+        @include borders(10px, 10px);
+        font-size: map-get($fontSizes, autoTitle);
+    }
+}
+.section-descripcion-escogernos {
+    @include flex(column, center, center);
+    @include sizes(80%, 50vh);
+    margin-bottom: 100px;
+
+    h2 {
+        color: map-get($colors, white);
+        text-align: center;
+        margin: 10px;
+        font-size: map-get($fontSizes, mainTitle);
+    }
+
+    p {
+        text-align: center;
+        margin: 10px;
+        font-size: map-get($fontSizes, autoTitle);
+        color: map-get($colors, white-egg);
+    }
+}
+
+.section-publico-objetivo {
+    @include flex(row, center, center);
+    @include sizes(90%, 80vh);
+    margin-bottom: 100px;
+}
+
+
+
+.container-descripcion-final {
+    @include flex(column, center, center);
+    @include sizes(80%, 50vh);
+    margin-bottom: 100px;
+
+    h4 {
+        text-align: center;
+        margin: 10px;
+        font-size: map-get($fontSizes, autoTitle);
+        color: map-get($colors, white-egg);
+    }
+}

@@ -1,0 +1,26 @@
+//Base
+@import 'partials/base/reset';
+@import 'partials/base/tipografia';
+
+//Utilities
+@import 'partials/utilities/maps';
+@import 'partials/utilities/mixings';
+@import 'partials/utilities/medias';
+
+//Components
+@import 'partials/components/navbar';
+@import 'partials/components/cards';
+@import 'partials/components/form';
+@import 'partials/components/mapa';
+@import 'partials/components/opiniones';
+@import 'partials/components/elemento';
+@import 'partials/components/info-ubi';
+@import 'partials/components/publico-objetivo';
+
+
+//Pages
+@import 'partials/pages/main-page';
+@import 'partials/pages/menu-page';
+@import 'partials/pages/local-page';
+@import 'partials/pages/opiniones-page';
+@import 'partials/pages/contact-page';

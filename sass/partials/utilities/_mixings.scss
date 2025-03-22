@@ -1,0 +1,24 @@
+//mixin
+@mixin flex ($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+//Esto se utiliza con el comando @include flex(row, center, center)
+
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+}
+//Esto se utiliza con el comando @include sizes(100%, 100%) o px, em, etc.
+
+@mixin borders ($padding, $margin){
+    padding: $padding;
+    margin: $margin;
+}
+
+@mixin marginsTopBottom ($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}

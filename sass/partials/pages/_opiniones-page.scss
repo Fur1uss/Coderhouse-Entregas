@@ -1,0 +1,12 @@
+// PAGINA OPINIONES.HTML
+.section-recomendaciones {
+    @include flex(column, flex-start, center);
+    @include sizes(100%, 250vh);
+    @include marginsTopBottom(100px, 100px);
+    gap: 50px;
+
+    h1 {
+        text-align: center;
+    }
+}
+

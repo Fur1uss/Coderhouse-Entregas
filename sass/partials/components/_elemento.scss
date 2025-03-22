@@ -1,0 +1,16 @@
+.contenedor-carta-elemento {
+    @include sizes(20%, 100%);
+    @include flex(column, center, center);
+    margin: 0 10px;
+
+    img {
+        @include sizes(100px, 100px);
+        object-fit: contain;
+    }
+
+    h2 {
+        color: map-get($colors, white-egg);
+        text-align: center;
+        margin: 10px;
+    }
+}

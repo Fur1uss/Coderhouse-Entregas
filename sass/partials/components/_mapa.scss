@@ -1,0 +1,8 @@
+.container-mapa {
+    @include flex(row, center, center);
+    @include sizes(100%, 80%);
+}
+
+.mapa {
+    @include sizes(50%, 100%);
+}

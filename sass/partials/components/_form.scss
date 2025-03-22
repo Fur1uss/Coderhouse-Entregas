@@ -1,0 +1,26 @@
+.container-divisor-formulario {
+    @include flex(column, center, center);
+    @include sizes(50%, 70%);
+}
+
+.form-container {
+    background: map-get($colors, white);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+.btn-custom {
+    background-color: map-get($colors, pastel-purple);
+    color: map-get($colors, white);
+    border: none;
+
+    &:hover {
+        background-color: map-get($colors, pastel-purple-hover);
+    }
+}

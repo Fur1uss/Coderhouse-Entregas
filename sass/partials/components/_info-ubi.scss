@@ -1,0 +1,15 @@
+.container-info {
+    @include sizes(25%, 70%);
+
+    img {
+        @include sizes(100%, 50%);
+        object-fit: contain;
+    }
+
+    p {
+        @include borders(10px, 10px);
+        font-size: map-get($fontSizes, autoTitle);
+        color: map-get($colors, white-egg);
+        text-align: center;
+    }
+}
