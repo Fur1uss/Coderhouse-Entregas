@@ -13,6 +13,8 @@
         font-size: map-get($fontSizes, autoTitle);
         color: map-get($colors, white-egg);
         text-align: center;
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
     }
 }
 

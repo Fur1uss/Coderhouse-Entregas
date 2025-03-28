@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -36,6 +37,8 @@ header a img {
 nav {
   background-color: #e4d9c0;
   height: 100%;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
 }
 
 .container-fluid {
@@ -57,6 +60,8 @@ nav {
 }
 .container-producto-item h2 {
   font-size: 1.2rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
 }
 .container-producto-item img {
   width: 100%;
@@ -64,6 +69,11 @@ nav {
   object-fit: cover;
   border-radius: 4px 4px 0 0;
   border-bottom: 4px solid #e4d9c0;
+}
+.container-producto-item p {
+  font-size: calc(0.3rem + 0.5vw);
+  text-align: center;
+  font-family: "Kanit", sans-serif;
 }
 
 .container-producto-item-info {
@@ -151,12 +161,16 @@ nav {
   padding: 10px;
   margin: 10px;
   font-size: calc(0.8rem + 0.5vw);
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
 }
 .container-info-opinion h2 {
   text-align: left;
   padding: 10px;
   margin: 10px;
   font-size: 2em;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
 }
 
 .contenedor-carta-elemento {
@@ -177,6 +191,8 @@ nav {
   color: #e4d9c0;
   text-align: center;
   margin: 10px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
 }
 
 .container-info {
@@ -194,6 +210,8 @@ nav {
   font-size: calc(0.8rem + 0.5vw);
   color: #e4d9c0;
   text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
 }
 
 .container-divisor-publico {
@@ -223,6 +241,112 @@ nav {
   margin: 10px;
   font-size: calc(0.8rem + 0.5vw);
   text-align: center;
+}
+
+.footer {
+  background-color: #56151e;
+  color: white;
+  text-align: center;
+}
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #23080c;
+}
+.footer-divider {
+  width: 60px;
+  background-color: #7c4dff;
+  height: 2px;
+  border: none;
+}
+.footer-copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.me-4 {
+  margin-right: 1rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-md-start {
+  text-align: left;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.col-md-3, .col-lg-4, .col-xl-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-md-2, .col-lg-2, .col-xl-2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.col-md-4, .col-lg-3, .col-xl-3 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.mb-md-0 {
+  margin-bottom: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.fw-bold {
+  font-weight: bold;
 }
 
 body {
@@ -261,6 +385,8 @@ section h1 {
   margin-bottom: 150px;
   text-align: center;
   color: #e4d9c0;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
 }
 
 .img-imagen-pizza {
@@ -310,6 +436,8 @@ section h1 {
   padding: 10px;
   margin: 10px;
   font-size: 2em;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
 }
 .division-info-somos-unicos p {
   color: #e4d9c0;
@@ -317,6 +445,8 @@ section h1 {
   padding: 10px;
   margin: 10px;
   font-size: calc(0.8rem + 0.5vw);
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
 }
 
 .division-imagen-somos-unicos {
@@ -375,6 +505,8 @@ section h1 {
   font-size: calc(0.8rem + 0.5vw);
   color: #e4d9c0;
   text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
 }
 
 .section-ubicacion-info {

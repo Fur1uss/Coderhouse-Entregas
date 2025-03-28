@@ -11,6 +11,7 @@ $colors: (
 $fontSizes: (
     mainTitle: 2em,
     subTitle: 1.2rem,
-    autoTitle: calc(.8rem + .5vw) 
+    autoTitle: calc(.8rem + .5vw),
+    autoText: calc(.3rem + .5vw),
 );
 //Esto se utiliza con el comando map-get($colors, white-egg) o map-get($fontSizes, mainTitle)

@@ -24,6 +24,8 @@ section {
         @include marginsTopBottom(150px, 150px);
         text-align: center;
         color: map-get($colors, white-egg);
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
     }
 }
 
@@ -60,6 +62,8 @@ section {
         text-align: center;
         @include borders(10px, 10px);
         font-size: map-get($fontSizes, mainTitle);
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
     }
 
     p {
@@ -67,6 +71,8 @@ section {
         text-align: left;
         @include borders(10px, 10px);
         font-size: map-get($fontSizes, autoTitle);
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
     }
 }
 

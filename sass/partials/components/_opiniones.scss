@@ -19,11 +19,15 @@
         text-align: left;
         @include borders(10px, 10px);
         font-size: map-get($fontSizes, autoTitle);
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
     }
 
     h2 {
         text-align: left;
         @include borders(10px, 10px);
         font-size: map-get($fontSizes, mainTitle);
+        font-family: "Kanit", sans-serif;
+        font-weight: 700;
     }
 }

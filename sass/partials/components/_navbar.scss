@@ -6,6 +6,8 @@ header a img {
 nav {
     background-color: map-get($colors, white-egg);
     height: 100%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
 }
 
 .container-fluid {
