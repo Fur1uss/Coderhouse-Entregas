@@ -27,6 +27,23 @@
   .container-divisor-formulario {
     width: 90%;
   }
+  .container-productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .container-producto-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 4px solid #e4d9c0;
+    margin: 10px;
+    border-radius: 10px;
+  }
 }
 header a img {
   width: 100px;
@@ -468,8 +485,8 @@ section h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
-  height: 130vh;
+  width: 100%;
+  height: 100vh;
   margin-top: 100px;
   gap: 25px;
 }

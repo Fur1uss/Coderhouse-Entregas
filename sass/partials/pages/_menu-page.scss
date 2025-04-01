@@ -3,7 +3,7 @@
 // PAGINA MENU.HTML
 .section-platos-principales {
     @include flex(column, center, center);
-    @include sizes(70%, 130vh);
+    @include sizes(100%, 100vh);
     margin-top: 100px;
     gap: 25px;
 
